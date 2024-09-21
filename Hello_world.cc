@@ -1,7 +1,8 @@
 #include <iostream>
-using namespace std;
+#include <string>
 
 int main() {
-    cout << "Hello, World!" << endl;
+    std::string s = "Hello, World!";
+    std::cout << s << std::endl;
     return 0;
 }
